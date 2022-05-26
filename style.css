@@ -38,6 +38,9 @@ h1::before {
 
 h2::before {
   content: url(img/Novo.png);
+  font-family: 'Abril Fatface', cursive;
+  color: rgb(9, 248, 21);
+  font-size: 89px;
   display: block;
 }
 
