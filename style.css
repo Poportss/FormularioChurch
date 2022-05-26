@@ -37,7 +37,7 @@ h1::before {
 }
 
 h2::before {
-  content: "🐅";
+  content: url(img/Novo.png);
   display: block;
 }
 
