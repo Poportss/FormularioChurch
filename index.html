@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário de Contato</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Schoolbell&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Formulário de Contato</h1>
+  <form action="https://formsubmit.co/bemvindoaonovomobi@gmail.com.br" method="POST" class="form">
+    <label for="name">Nome Completo</label>
+    <input type="text" name="name" id="name" required />
+
+    <label for="idade">Idade</label>
+    <input type="number" name="idade" id="idade" required />
+
+    <label for="instagram">Instagram</label>
+    <input type="text" name="instagram" id="instagram" required />
+
+    <label for="telefone">Telefone</label>
+    <input type="text" name="telefone" id="telefone" required />
+    
+    <input type="hidden" name="_captcha" value="false" />
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html" />
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>
